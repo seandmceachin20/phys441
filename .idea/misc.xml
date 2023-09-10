@@ -4,7 +4,7 @@
     <option name="pathToExecutable" value="$PROJECT_DIR$/../anaconda3/bin/black" />
     <option name="sdkUUID" value="85cad369-9715-4379-83dd-501474631006" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="$PROJECT_DIR$/../anaconda3" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="phys441" project-jdk-type="Python SDK" />
   <component name="PyPackaging">
     <option name="earlyReleasesAsUpgrades" value="true" />
   </component>
