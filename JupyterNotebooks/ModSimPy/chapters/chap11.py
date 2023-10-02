@@ -1,5 +1,3 @@
-from modsim import *
-
 def make_system(beta, gamma):
     init = State(s=89, i=1, r=0)
     init /= init.sum()
@@ -7,7 +5,6 @@ def make_system(beta, gamma):
     return System(init=init, t_end=7*14,
                   beta=beta, gamma=gamma)
 
-from modsim import *
 
 def update_func(t, state, system):
     s, i, r = state.s, state.i, state.r
@@ -21,7 +18,6 @@ def update_func(t, state, system):
     
     return State(s=s, i=i, r=r)
 
-from modsim import *
 
 def plot_results(S, I, R):
     S.plot(style='--', label='Susceptible')
@@ -30,7 +26,7 @@ def plot_results(S, I, R):
     decorate(xlabel='Time (days)',
              ylabel='Fraction of population')
 
-from modsim import *
+from JupyterNotebooks.Week8.modsim import *
 
 def run_simulation(system, update_func):
     frame = TimeFrame(columns=system.init.index)
