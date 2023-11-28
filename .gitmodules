@@ -1,3 +1,6 @@
 [submodule "JupyterNotebooks/Python/CFDPython"]
 	path = JupyterNotebooks/Python/CFDPython
 	url = https://github.com/barbagroup/CFDPython
+[submodule "JupyterNotebooks/Week12/genetic-algorithms"]
+	path = JupyterNotebooks/Week12/genetic-algorithms
+	url = git@github.com:kiecodes/genetic-algorithms
